@@ -1,8 +1,6 @@
 # Photography-Portfolio
 
-<a target="_blank" href="https://samclicks.netlify.app/">
-<img src="https://user-images.githubusercontent.com/77121931/216774002-5ff4acc3-4a2d-4dd0-a305-6d7cccf36895.gif"/>
-</a>
+![](https://user-images.githubusercontent.com/77121931/216774002-5ff4acc3-4a2d-4dd0-a305-6d7cccf36895.gif)
 
 ### A website for the people who love clicking photographs to showcase their work! :camera::heart:
 - Always wanted a website to show your photography skills but don't know how to? You have come to the right place!
