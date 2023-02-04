@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ----------------------------------------------------------------- -->
+    <!-- The title of the website which appear on the tabs bar comes here! -->
+    <title>Photography Website</title>
+    <!-- ----------------------------------------------------------------- -->
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
+  </head>
+  <body onload="injectImages()">
+    <main>
+      <div class="heading">
+        <div class="row-box">
+          <!-- ---------------------------------------------------- -->
+          <!-- Add the link which can be used to connect with you! -->
+          <!-- For example - Add the link to your Instagram Profile -->
+          <a target="_blank" href="Add a valid link here!">
+            <!-- You can replace the image here -->
+            <!-- Download any image of your preference to the assets folder -->
+            <!-- Replace <instagram.png> with the name of your file in assets folder -->
+            <img src="assets/instagram.png" alt="" />
+          </a>
+          <!-- -------------------------------------------------- -->
+
+          <!-- -------------------------- -->
+          <!-- You can add your name here -->
+          <div class="name">Your Name</div>
+          <!-- -------------------------- -->
+        </div>
+
+        <!-- --------------------------------------------------------------------------------------------------- -->
+        <!-- If you have a portfolio website, then un-comment the code below and add the link to your portfolio! -->
+        <!-- <div class="about"> -->
+        <!-- <a href="Add the link to your portfolio"> -->
+        <!-- <button>About Me</button> -->
+        <!-- </a> -->
+        <!-- </div> -->
+        <!-- --------------------------------------------------------------------------------------------------- -->
+      </div>
+      <div class="photos">
+        <div class="column" id="1"></div>
+        <div class="column" id="2"></div>
+        <div class="column" id="3"></div>
+        <div class="column" id="4"></div>
+      </div>
+      <div class="load-more-btn">
+        <button onclick="loadMore()" id="load-more-button">Load more</button>
+      </div>
+    </main>
+  </body>
+</html>
